@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: darkgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    color: fuchsia;
+    text-align: center;
+    font-weight: 800;
+}
