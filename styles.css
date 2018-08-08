@@ -12,15 +12,57 @@ h1, h2{
 
 header{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100px;
-        }
+    justify-content: space-between;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:10px;
+}
+
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #296cd8;
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding-right: 15px;
+}
 
 p{
     margin-left: 10px;
 }
+
+.legenda{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    
+}
+.rodape{
+    background-color: black;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#gato{
+    width: 150px;
+    height: 100%;
+}
+
 
 button{
     border: solid blue 2px;
@@ -28,8 +70,8 @@ button{
     border-radius: 10%;
     padding: 10px;
     color: blue;
-
-
-
-
+    
+    
+    
+    
 }
