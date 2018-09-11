@@ -52,5 +52,35 @@ aside{
     line-height: 20px;
     letter-spacing: 1px;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
+
+.tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#coxinha{
+    width: 35%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.rodape button{
+    background-color: midnightblue;
+    color: white;
+    font-size: 12pt; 
+    padding: 12px;
+    border: none;
+}
+
+.rodape button:hover{
+    background-color: blueviolet;
+}
+
