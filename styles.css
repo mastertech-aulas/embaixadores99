@@ -3,21 +3,40 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+.banner{
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 250px;
+}
+
 h1{
     color:#913834;
     text-align: center;
     font-weight: bold;
-    padding-top: 40px;
-}
+    font-size: 30pt;
+    margin: 0;
+    padding-top: 50px;
 
-header{
+}
+.menu{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color:#fce8b5;
+    justify-content: space-between;
 }
 
-header img{
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menu img{
     width: 6vw; /* vw: viewport width */
     margin-right: 10px;
     padding: 5px;
@@ -25,16 +44,9 @@ header img{
 
 .menu a{
     text-decoration: none;
-    color:#4c0603;
     font-size: 12pt;
-    margin-left: 15px;
-}
-
-aside{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+    color: black;
+    }
 
 .text h2, .text p{
     padding: 10px;
@@ -80,6 +92,7 @@ aside{
     align-items: center;
     justify-content: space-around;
     height: 100px;
+    background-color: black;
 }
 
 .rodape button{
