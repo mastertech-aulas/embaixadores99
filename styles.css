@@ -3,28 +3,21 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-
 .banner{
     background-image: url("img/fundo.jpg");
-    background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     margin: 0;
-    height: 250px;
+    height: 500px;
+    width: 100%;
 }
 
-h1{
-    color:#913834;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30pt;
-    margin: 0;
-    padding-top: 50px;
-
-}
 .menu{
     display: flex;
     align-items: center;
-    background-color:#fce8b5;
+    background-color:rgba(255,255,255,0.8);
     justify-content: space-between;
+    
 }
 
 .menu ul{
@@ -33,7 +26,11 @@ h1{
 
 .menu ul li{
     list-style: none;
-    margin-right: 15px;
+    margin-right: 25px;
+}
+
+.menu ul li a{
+    color:#171796;
 }
 
 .menu img{
@@ -55,17 +52,7 @@ h1{
 
 }
 .text p{
-    
     font-family: 'Quicksand', sans-serif;
-}
-
-.receita{
-    font-size: 11pt;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 20px;
-    letter-spacing: 1px;
-    margin-left: 25px;
-    margin-top: 20px;
 }
 
 .como-fazer{
@@ -75,16 +62,32 @@ h1{
     letter-spacing: 1px;
     margin-left: 25px;
     padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 200px;
 }
 
 .tutorial{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
 }
 
-#coxinha{
-    width: 35%;
+.item{
+    width: 33%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 11pt;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    }
+
+.item img{
+    width: 80px;
+    height: 80px;
 }
 
 .rodape{
