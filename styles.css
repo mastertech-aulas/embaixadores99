@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     height: 500px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .menu{
@@ -43,13 +43,13 @@ body{
     text-decoration: none;
     font-size: 12pt;
     color: black;
-    }
+}
 
 .text h2, .text p{
     padding: 10px;
     margin: 20px 10px 0px 10px; /* top right bottom left */
     color: #395c93;
-
+    
 }
 .text p{
     font-family: 'Quicksand', sans-serif;
@@ -60,19 +60,18 @@ body{
     font-family: 'Quicksand', sans-serif;
     line-height: 20px;
     letter-spacing: 1px;
-    margin-left: 25px;
-    padding-top: 30px;
     text-align: center;
+    padding-top: 20px;
     margin-bottom: 20px;
     height: 200px;
+    max-width: 100%;
 }
 
 .tutorial{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    flex-wrap: wrap;
-    height: 200px;
+    flex-flow: wrap;
 }
 
 .item{
@@ -83,7 +82,8 @@ body{
     font-family: 'Quicksand', sans-serif;
     line-height: 20px;
     letter-spacing: 1px;
-    }
+    margin-bottom: 20px;
+}
 
 .item img{
     width: 80px;
@@ -95,18 +95,32 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    background-color: black;
+    background-color: rgb(65, 63, 63);
 }
 
-.rodape button{
-    background-color: midnightblue;
-    color: white;
-    font-size: 12pt; 
-    padding: 12px;
-    border: none;
-}
 
-.rodape button:hover{
-    background-color: blueviolet;
+@media screen and (max-width: 480px) {
+    .tutorial {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .item{
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    .banner{
+        height: 200px;
+    }
+    
+    .como-fazer{
+        text-align: center;
+    }
+    .como-fazer p{
+        margin: 10px;
+        padding: 10px;
+        
+    }
 }
-
